@@ -41,7 +41,7 @@ header {
   animation: degrade 12s ease infinite;
   position: relative;
 }
-
+/* type de carctère utiliser pour le titre*/
 header h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(4rem, 14vw, 10rem);
@@ -87,7 +87,7 @@ main {
   transform: translateY(80px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
+/* permet au crte de se retourner*/
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
@@ -119,7 +119,7 @@ main {
     transform: rotateY(180deg);
   }
 }
-
+/*caracteristique des cartes face recto*/
 .face {
   position: absolute;
   inset: 0;
