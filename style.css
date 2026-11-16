@@ -4,7 +4,7 @@
   --orange: #ffc371;
   --bleu: #4facfe;
 }
-
+/*les couleurs principales du site internet*/
 * {
   box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ body {
   z-index: 100;
 }
 
-/* En-tête animé */
+/* En-tête animé qui permet d'avoir un visuel dynamique et de capter l'attention*/
 header {
   min-height: 100vh;
   display: flex;
@@ -71,7 +71,7 @@ header h1 {
   animation: rebond 1.5s ease-in-out infinite;
 }
 
-/* Grille de cartes */
+/* Grille de cartes qui contient les cartes individuelles de tous les monuments */
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -93,7 +93,7 @@ main {
   transform: translateY(0);
 }
 
-/* Carte qui se retourne */
+/* Carte qui se retourne pour pouvoir avoir des informations sur le monument  */
 .carte {
   height: 440px;
   perspective: 1200px;
@@ -160,7 +160,7 @@ main {
   letter-spacing: 2px;
 }
 
-/* Verso */
+/* Changement de couleur quand les cartes se retournent */
 .verso {
   transform: rotateY(180deg);
   background: linear-gradient(135deg, #6a3de8, #ff5f6d);
@@ -196,7 +196,7 @@ footer {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Animations */
+/*  */
 @keyframes degrade {
   0%   { background-position: 0% 50%; }
   50%  { background-position: 100% 50%; }
